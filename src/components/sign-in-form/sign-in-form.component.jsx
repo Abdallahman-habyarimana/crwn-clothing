@@ -51,7 +51,7 @@ export const SignIn = () => {
    
      <div className='sign-up-container'>
       <h2>Already have an Account ? Sign In</h2>
-      <h1>Sign In with your email and password</h1>
+      <span>Sign In with your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput label="Email"  type="email" required onChange={handleChange} name="email" value={email}/>
         <FormInput label="Password"  type="password" required onChange={handleChange} name="password" value={password} />
